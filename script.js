@@ -13,8 +13,8 @@ window.addEventListener("scroll",()=>{
 
 		for(let i=1;i<=2;i++){
 			const li = document.createElement("li")
-			li.textcontent = `Item ${currentItems+i}`
-			li.appendChild("li")
+			li.textContent = `Item ${currentItems+i}`
+			list.appendChild("li")
 		}
 	}
 })
