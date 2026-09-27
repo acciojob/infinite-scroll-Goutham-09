@@ -4,7 +4,7 @@ const list = document.getElementById("infi-list")
 for(let i=1;i<=10;i++){
 	const li = document.createElement("li")
 	li.textContent = `Item ${i}`
-	list.appendChild("li")
+	list.appendChild(li)
 }
 
 window.addEventListener("scroll",()=>{
@@ -14,7 +14,7 @@ window.addEventListener("scroll",()=>{
 		for(let i=1;i<=2;i++){
 			const li = document.createElement("li")
 			li.textContent = `Item ${currentItems+i}`
-			list.appendChild("li")
+			list.appendChild(li)
 		}
 	}
 })
